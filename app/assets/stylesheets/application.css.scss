@@ -63,4 +63,20 @@ a:hover {
 			color: #9eafba;
 			margin: .5em 0 2em 0;
 		}
-	}	
+	}
+
+.head-style{
+	color: #8a6d3b !important;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.item-style{
+	li{
+		a {
+			color: #317091 !important;
+		}
+	}
+	font-size: 15px;
+	font-weight: bold;
+}
