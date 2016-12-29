@@ -15,3 +15,52 @@
  */
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+a:visited {
+	color: #337ab7;
+}
+
+a:hover {
+	text-decoration: none;
+	color: inherit;
+	background-color: inherit;
+}
+
+.post_wrapper {
+		padding: 3em;
+		border-bottom: 1px solid #d6dce0;
+		.title {
+			margin: 0;
+			a {
+				font-weight: 500;
+				text-decoration: none;
+				color: #2a2f35;
+				font-size: 1.5em;
+				&:hover {
+					color: #33acb7;
+				}
+			}
+		}
+		.date_and_author {
+			color: #9eafba;
+			margin: .5em 0 0 0;
+		}
+	}
+#post_content {
+		padding: 1em 3em;
+		.title {
+			font-weight: 500;
+			text-decoration: none;
+			color: #2a2f35;
+			font-size: 2.5em;
+			margin-bottom: 0;
+		}
+		.body {
+			font-size: 1.1em;
+			line-height: 1.75;
+		}
+		.date_and_author {
+			color: #9eafba;
+			margin: .5em 0 2em 0;
+		}
+	}	
