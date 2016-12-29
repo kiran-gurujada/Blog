@@ -9,8 +9,3 @@ task "assets:precompile" do
     FileUtils.cp file, nondigest, verbose: true
   end
 end
-Also I had to add an extra line to my application.rb file from what you have above so that assets:precompile included all the image assets needed by ckeditor.
-
-config.autoload_paths += %W(#{config.root}/app/models/ckeditor)
-config.assets.precompile += Ckeditor.assets
-config.assets.precompile += %w(ckeditor/*)
